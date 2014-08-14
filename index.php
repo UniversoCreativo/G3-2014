@@ -7,7 +7,8 @@
 </head>
 
 <body>
-<div id="contenedora">
+<div class="contenedora">
+<div class="contenedora2">
     <div id="bloquea">
         <div id="columnah"></div>
         <div id="columnav"></div>
@@ -29,6 +30,7 @@
         <div id="molde6"></div>
     	</div>
     </div>
+</div>
 </div>
 </body>
 </html>
