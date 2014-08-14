@@ -8,6 +8,27 @@
 
 <body>
 <div id="contenedora">
+    <div id="bloquea">
+        <div id="columnah"></div>
+        <div id="columnav"></div>
+    </div>
+    
+    <div id="bloqueb">
+        <div id="caja1">
+        <div id="molde1"></div>
+        <div id="molde2"></div>
+		</div>
+        
+        <div id="caja2">
+        <div id="molde3"></div>
+        <div id="molde4"></div>
+    	</div>
+    	
+        <div id="caja3">
+        <div id="molde5"></div>
+        <div id="molde6"></div>
+    	</div>
+    </div>
 </div>
 </body>
 </html>
