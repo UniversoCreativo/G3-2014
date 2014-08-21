@@ -1,5 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
+@font-face {
+    font-family: 'optimusprincepssemiboldRg';
+    src: url('optimusprincepssemibold-webfont.eot');
+    src: url('optimusprincepssemibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('optimusprincepssemibold-webfont.woff') format('woff'),
+         url('optimusprincepssemibold-webfont.ttf') format('truetype'),
+         url('optimusprincepssemibold-webfont.svg#optimusprincepssemiboldRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body{
 	background-image:url(../imagenes/fondo%20copia.gif);
 	margin:0px;
@@ -9,19 +20,65 @@ body{
 	height:768px;
 }
 .contenedora2{
-	width:800px;
+	width:1000px;
 	height:400px;
 	border-color:#FFF;
-	background-color:#FFF;
+
 	margin-left:350px;
 	margin-top:50px;
-
-	
-}
+	}
 
 #bloquea{
-	width:340px;
+	width:440px;
 	height:400px;
-	background-color: #00F;
+	float:left;
 }
-#columnaa
+#bloqueb{width: 560px;
+height:400px;
+float:right;
+margin-top:100px;
+}
+.caja1{
+	margin-top:0px;
+	height:10px
+	width: 10px;
+	margin-left:10px;
+	color:#FFF;
+}
+.caja2{
+	margin-top:5px;
+	margin-left:125px; 
+	color:#FFF;
+}
+.caja3{
+	margin-top:10px;
+	margin-left:400px; 
+	color:#FFF;
+}
+.img1{ opacity:10;
+	clear:both;
+	text-align:right;
+	margin-left:500px;
+    }
+
+div.caja1:hover img.img1{
+	opacity:1;
+	transition: opacity .5s ease-out;
+	margin-left:100px; 
+	}
+div.caja2:hover img.img1{
+	opacity:1;
+	transition: opacity .5s ease-out; }
+	
+div.caja3:hover img.img1{
+	opacity:1;
+	transition: opacity .5s ease-out;} 
+	
+	#columnav{ float:right;}
+	#columnah{
+	color: #FFF;
+	font-size: 50px;
+	float: left;
+	font-family: 'optimusprincepssemiboldRg';
+	}
+	.imagen1 { margin-left:70px;}
