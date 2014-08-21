@@ -21,8 +21,7 @@
     
     <div id="bloqueb">
    
-   <form id="f_acceso" name="f_acceso" action="acceso.php" method="POST">
-
+   <form id="f_acceso" name="f_acceso" action="acceso.php" method="POST" onsubmit= "return validarFormulario();">
 <div class="caja1">
 	<label for="textfield">USUARIO:</label>
 	<input type="text" name="f_usuario" id="f_usuario">
@@ -44,5 +43,27 @@
 </div>
 
 </div>
+<div id="mensajeError" style="color:#00F; font-size:18px;"></div>
+<script>
+$("#f_usuario").focus();
+function validarFormulario(){
+	var f_usuario = $("#f_usuario").val();
+	var f_contra = $("#f_contra").val();
+	
+	var f_usuario_cantidad = f_usuario.lenght;
+	var f_contra_cantidad = f_contra.lenght;
+	if(f_usuario == ""){
+		$("#mensajeError").html("<strong>ALERTA</strong> usted no ingreso el usuario"); 
+		return false;
+	}
+	if(f_contra == ""){
+		$("#mensajeError").html("<strong>ALERTA</strong> usted no ingreso la contraseña");
+		return false;
+	}
+		
+return true;
+}
+</script>
+
 </body>
 </html>

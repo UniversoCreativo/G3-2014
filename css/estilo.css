@@ -44,16 +44,19 @@ margin-top:100px;
 	width: 10px;
 	margin-left:10px;
 	color:#FFF;
+		font-family: 'optimusprincepssemiboldRg';
 }
 .caja2{
 	margin-top:5px;
 	margin-left:125px; 
 	color:#FFF;
+		font-family: 'optimusprincepssemiboldRg';
 }
 .caja3{
 	margin-top:10px;
 	margin-left:400px; 
 	color:#FFF;
+		font-family: 'optimusprincepssemiboldRg';
 }
 .img1{ opacity:10;
 	clear:both;
