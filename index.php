@@ -9,6 +9,10 @@
 </head>
 
 <body>
+<?php $f_usuario= isset($_POST['f_usuario'])? $_POST['f_usuario']: NULL;
+$f_contra= isset($_POST['f_contra'])? $_POST['f_contra']: NULL;
+echo "el usuario es".$f_usuario."y la contraseña es".$f_contra;
+?> 
 <div class="contenedora">
 <div class="contenedora2">
     <div id="bloquea">
